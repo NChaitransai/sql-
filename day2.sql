@@ -1,0 +1,26 @@
+CREATE DATABASE instagram
+
+use instagram;
+
+CREATE TABLE  users(
+USERID int,
+USERNAME VARCHAR(15),
+PASSWORD VARCHAR(20),
+EMAIL VARCHAR(30),
+MOBILE INT,
+GENDER varchar(10),
+BOI VARCHAR(100)
+
+);
+
+
+CREATE TABLE posts(
+USERID int,
+POSTID int,
+LIKES int,
+COMMENTSID INT,
+TAGS varchar(25)
+);
+
+
+
